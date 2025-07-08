@@ -1,0 +1,11 @@
+requests 
+pandas 
+numpy 
+scikit-learn 
+joblib 
+python-binance 
+ccxt 
+ta 
+dotenv 
+matplotlib 
+yfinance

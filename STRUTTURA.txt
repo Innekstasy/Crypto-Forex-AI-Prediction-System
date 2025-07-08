@@ -1,0 +1,61 @@
+FOREX_CRYPTO_V2/
+│── data/                 # Storico dei dati scaricati
+│   │── binance_XXXXXX.csv
+│   │── blockchair_btc_stats.csv
+│   │── coinbase_XXX-XXX.csv
+│   │── coincap_XXX.csv
+│   │── coingecko_XXX.csv
+│   │── cryptocompare_XXX.csv
+│   │── signals.csv
+│   │── unirate_XXX.csv
+│   │── yahoo_XXX-XXX.csv
+│── models/               # Modelli ML salvati
+│   │── scaler.pkl
+│   │── trading_model.pkl
+│── logs/                 
+│   │── daily_reports/         # Moduli per recupero dati
+│   │── eval_ai/         # Moduli per recupero dati
+│── venv/                 
+│── src/                  # Codice sorgente
+│   │── fetchers/         # Moduli per recupero dati
+│   │   │── binance.py    # Fetcher per Binance
+│   │   │── coinbase.py   # Fetcher per Coinbase
+│   │   │── coincap.py   
+│   │   │── coingecko.py   
+│   │   │── cryptocompare.py   
+│   │   │── nasdaq.py   
+│   │   │── unirate.py   
+│   │   │── yahoo.py   
+│   │── indicators.py     # Calcolo livelli Fibonacci e indicatori
+│   │── training.py       # Addestramento del modello AI
+│   │── strategy.py       # Logica di trading con AI + Fibonacci
+│   │── main.py           # Script principale
+│   │── __init__.py           
+│   │── analyze_log.py           
+│   │── indicators.py           
+│   │── blockchair.py           
+│   │── main_loop.py           
+│   │── trailing_stop.py           
+│   │── training.py           
+│   │── utils.py           
+│   │── wyckoff_filter.py           
+│   │── wyckoff_filter_breakout.py           
+│   │── candlestick_patterns.py           
+│── .env                  # File con API Keys
+│── requirements.txt      # Dipendenze Python
+│── config.json           # Configurazioni extra
+│── README.md             # Documentazione
+│── cdp_api_key.json
+│── coinbase_api.txt
+│── config.json
+│── last_training_state.json
+│── evaluate_predictions.py
+│── evaluate_wyckoff_blocked.py
+│── oauth_coinbase.py
+│── streamlit_app.py
+│── trainer_manager.py
+│── update_all_fetchers.py
+│── update_and_train_loop.py
+
+
+

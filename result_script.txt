@@ -1,0 +1,65 @@
+
+(venv) E:\CODE\FOREX_CRYPTO_V2>python src/main.py
+
+ 📅 Ultimo addestramento modello: 2025-07-03 11:10:50
+
+ ⏱️ Tempo trascorso dall'addestramento: 31 minuti
+
+
+ Seleziona una coppia da analizzare:
+1. BTCUSDT / BTC-USD / BTC-USD
+
+Inserisci il numero della coppia da analizzare: 1
+
+ Analisi per BTCUSDT / BTC-USD...
+
+
+🧾 Prime 2 righe del CSV caricato:
+          timestamp     open     high      low    close   volume
+2025-03-15 20:55:00 84380.17 84390.07 84360.40 84389.31  8.30701
+2025-03-15 21:00:00 84389.31 84420.02 84377.71 84413.74 16.84708
+
+
+ Live price per BTCUSDT: 110139.08
+⚙️ Entry price forzato al live per coerenza operativa.
+
+Prezzo attuale: 110139.08
+Differenza tra prezzo attuale e storico: 0.0000
+
+ RSI troppo neutro (51.12). Nessuna direzione chiara, ma si procede comunque con la previsione AI.
+
+ Trend rilevato: UP (MA50: 109694.99, MA200: 109463.19)
+⛔️ Blocco Wyckoff: range laterale rilevato (range=0.0018, soglia=0.006)
+⚠️ Blocco Wyckoff attivo. Generazione TP/SL a scopo informativo...
+⚠️ Prezzo elevato rilevato: 110139.08
+⚠️ Prezzo elevato rilevato: 109988.12
+⛔️ Blocco Wyckoff: range laterale rilevato (range=0.0018, soglia=0.006)
+⚙️ ADX calcolato: 20.24 (forza del trend)
+🔍 Trend debole o laterale: rischio invariato
+
+ RISK SCORE del segnale: 0/3
+
+ Prezzo usato per calcolo TP/SL: 110139.0800 (live)
+ Differenza vs. storico: 150.9600
+
+⚠️ Segnale bloccato per: WYCKOFF
+⚠️ TP e SL forniti SOLO a scopo informativo → esecuzione altamente sconsigliata.
+➡️ Valori consigliati (uso manuale):
+ Azione: BUY
+ Take Profit: 110232.59571428571
+ Stop Loss: 110092.32214285714
+ Lotto consigliato: 0.1
+ Entry price: 110139.08
+ Risk Score: 0/3
+
+ Note TP/SL: TP/SL INFORMATIVI - SEGNALI AD ALTO RISCHIO
+ UniRate non disponibile (SSL error) – potrebbe essere causato da firewall o certificato mancante.
+ Blockchair TX 24h: 374604 / soglia: 659711
+ Blockchair: sotto soglia.
+
+********************************************
+ DECISIONE FINALE: BUY annullato
+📥 Log registrato correttamente.
+ Vuoi eseguire l'analisi dei segnali ora? (s/n): n
+
+(venv) E:\CODE\FOREX_CRYPTO_V2>
