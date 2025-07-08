@@ -1,0 +1,528 @@
+
+        <html>
+        <head>
+            <title>Valutazione AI</title>
+            <style>
+                body { font-family: sans-serif; margin: 40px; background: #f5f5f5; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; margin: 20px 0; width: 90%; background: white; }
+                th, td { padding: 10px 15px; border: 1px solid #ddd; text-align: center; }
+                th { background-color: #f0f0f0; }
+                tr:nth-child(even) { background-color: #fafafa; }
+                .tp { background-color: #c8e6c9; }
+                .sl { background-color: #ffcdd2; }
+                .none { background-color: #eeeeee; }
+            </style>
+        </head>
+        <body>
+        
+<h1>📊 Risultati valutazione predizioni AI</h1>
+<h2>✅ Valutati (con TP/SL)</h2>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>esito</th>
+      <th>NESSUNO</th>
+      <th>SL</th>
+      <th>TP</th>
+      <th>precision</th>
+      <th>recall</th>
+    </tr>
+    <tr>
+      <th>azione</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>BLOCCATO</th>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.00</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <th>BUY</th>
+      <td>299</td>
+      <td>3343</td>
+      <td>4145</td>
+      <td>55.36</td>
+      <td>53.23</td>
+    </tr>
+    <tr>
+      <th>SELL</th>
+      <td>267</td>
+      <td>3206</td>
+      <td>3851</td>
+      <td>54.57</td>
+      <td>52.58</td>
+    </tr>
+  </tbody>
+</table>
+
+        <p><b>Totale segnali:</b> 15141<br>
+        <b>Validati:</b> 15112<br>
+        <b>In attesa:</b> 29<br></p>
+        <hr><br>
+        
+
+    <h2>💰 Rendimento operativo stimato</h2>
+    <p><b>Operazioni valutate:</b> 14545</p>
+    <table>
+        <tr><th>Esito</th><th>Conteggio</th><th>Percentuale</th></tr>
+        <tr class="tp"><td>TP</td><td>7996</td><td>54.97%</td></tr>
+        <tr class="sl"><td>SL</td><td>6549</td><td>45.03%</td></tr>
+    </table>
+    
+
+    <p><b>Trend MA50 vs MA200:</b> BULLISH (MA50=108319.19 / MA200=108157.58)<br>
+    <b>RSI medio ultimi 50 segnali:</b> N/A <br>
+    <b>% TP ultimi 50 BUY:</b> 40.00% <br>
+    <b>% TP ultimi 50 SELL:</b> 10.00% <br>
+    <b>RACCOMANDAZIONE:</b> OPERARE SOLO BUY <br>
+    </p>
+    <hr>
+    
+<h2>📅 Storico rendimento (ultimi 10 giorni)</h2>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>data</th>
+      <th>TP</th>
+      <th>SL</th>
+      <th>Precision</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025-07-08</td>
+      <td>28</td>
+      <td>63</td>
+      <td>30.77</td>
+    </tr>
+    <tr>
+      <td>2025-07-07</td>
+      <td>92</td>
+      <td>45</td>
+      <td>67.15</td>
+    </tr>
+    <tr>
+      <td>2025-07-04</td>
+      <td>143</td>
+      <td>56</td>
+      <td>71.86</td>
+    </tr>
+    <tr>
+      <td>2025-07-03</td>
+      <td>53</td>
+      <td>89</td>
+      <td>37.32</td>
+    </tr>
+    <tr>
+      <td>2025-07-02</td>
+      <td>86</td>
+      <td>35</td>
+      <td>71.07</td>
+    </tr>
+    <tr>
+      <td>2025-07-01</td>
+      <td>153</td>
+      <td>122</td>
+      <td>55.64</td>
+    </tr>
+    <tr>
+      <td>2025-06-30</td>
+      <td>53</td>
+      <td>101</td>
+      <td>34.42</td>
+    </tr>
+    <tr>
+      <td>2025-06-29</td>
+      <td>54</td>
+      <td>52</td>
+      <td>50.94</td>
+    </tr>
+    <tr>
+      <td>2025-06-28</td>
+      <td>119</td>
+      <td>163</td>
+      <td>42.20</td>
+    </tr>
+    <tr>
+      <td>2025-06-27</td>
+      <td>118</td>
+      <td>157</td>
+      <td>42.91</td>
+    </tr>
+  </tbody>
+</table>
+<h2>⏳ Segnali ancora in attesa</h2>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>timestamp</th>
+      <th>symbol</th>
+      <th>azione</th>
+      <th>tp</th>
+      <th>sl</th>
+      <th>status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025-07-08 07:45:15.022641</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108158.625714</td>
+      <td>108127.492143</td>
+      <td>IN ATTESA (4 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 07:50:19.128275</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108219.585714</td>
+      <td>108188.452143</td>
+      <td>IN ATTESA (9 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 07:55:22.813034</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108218.745714</td>
+      <td>108187.612143</td>
+      <td>IN ATTESA (14 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:00:26.414298</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108231.685714</td>
+      <td>108200.552143</td>
+      <td>IN ATTESA (19 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:05:30.290021</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108294.361429</td>
+      <td>108255.044286</td>
+      <td>IN ATTESA (24 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:10:34.281189</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108231.361429</td>
+      <td>108192.044286</td>
+      <td>IN ATTESA (29 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:15:37.898359</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108269.211429</td>
+      <td>108229.894286</td>
+      <td>IN ATTESA (34 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:20:41.490203</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108178.171429</td>
+      <td>108138.854286</td>
+      <td>IN ATTESA (39 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:25:44.997997</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108240.681429</td>
+      <td>108201.364286</td>
+      <td>IN ATTESA (44 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:30:48.504898</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108240.681429</td>
+      <td>108201.364286</td>
+      <td>IN ATTESA (49 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:35:52.290572</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108295.637143</td>
+      <td>108241.281429</td>
+      <td>IN ATTESA (55 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:40:56.300180</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108262.907143</td>
+      <td>108208.551429</td>
+      <td>IN ATTESA (60 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:46:00.128004</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108391.777143</td>
+      <td>108337.421429</td>
+      <td>IN ATTESA (65 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:51:03.782987</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108409.977143</td>
+      <td>108355.621429</td>
+      <td>IN ATTESA (70 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 08:56:07.520961</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108308.027143</td>
+      <td>108253.671429</td>
+      <td>IN ATTESA (75 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:01:11.154102</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108335.957143</td>
+      <td>108281.601429</td>
+      <td>IN ATTESA (80 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:06:14.932906</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108316.247143</td>
+      <td>108261.891429</td>
+      <td>IN ATTESA (85 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:11:20.163555</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108313.012857</td>
+      <td>108254.433571</td>
+      <td>IN ATTESA (90 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:16:24.151019</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108297.382857</td>
+      <td>108238.803571</td>
+      <td>IN ATTESA (95 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:21:27.913473</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108342.082857</td>
+      <td>108283.503571</td>
+      <td>IN ATTESA (100 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:26:31.362194</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108423.732857</td>
+      <td>108365.153571</td>
+      <td>IN ATTESA (105 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:31:35.240414</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108367.362857</td>
+      <td>108308.783571</td>
+      <td>IN ATTESA (110 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:36:38.875099</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108443.042857</td>
+      <td>108384.463571</td>
+      <td>IN ATTESA (115 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:41:42.701674</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108429.532857</td>
+      <td>108370.953571</td>
+      <td>IN ATTESA (120 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:46:46.558776</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108445.427143</td>
+      <td>108389.301429</td>
+      <td>IN ATTESA (125 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:51:50.501117</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108484.397143</td>
+      <td>108428.271429</td>
+      <td>IN ATTESA (130 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:56:54.461888</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108506.497143</td>
+      <td>108450.371429</td>
+      <td>IN ATTESA (136 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 10:01:58.645884</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108491.867143</td>
+      <td>108435.741429</td>
+      <td>IN ATTESA (141 min)</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 10:07:02.454878</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108509.787143</td>
+      <td>108453.661429</td>
+      <td>IN ATTESA (146 min)</td>
+    </tr>
+  </tbody>
+</table>
+<hr><h2>📋 Ultimi segnali registrati</h2>
+<table class="dataframe">
+  <thead>
+    <tr style="text-align: center;">
+      <th>timestamp</th>
+      <th>symbol</th>
+      <th>azione</th>
+      <th>tp</th>
+      <th>sl</th>
+      <th>status</th>
+      <th>valutabile_da</th>
+      <th>tempo_residuo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2025-07-08 10:07:02.454878</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108509.787143</td>
+      <td>108453.661429</td>
+      <td>IN ATTESA (146 min)</td>
+      <td>10:37:02</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 10:01:58.645884</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108491.867143</td>
+      <td>108435.741429</td>
+      <td>IN ATTESA (141 min)</td>
+      <td>10:31:58</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:56:54.461888</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108506.497143</td>
+      <td>108450.371429</td>
+      <td>IN ATTESA (136 min)</td>
+      <td>10:26:54</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:51:50.501117</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108484.397143</td>
+      <td>108428.271429</td>
+      <td>IN ATTESA (130 min)</td>
+      <td>10:21:50</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:46:46.558776</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108445.427143</td>
+      <td>108389.301429</td>
+      <td>IN ATTESA (125 min)</td>
+      <td>10:16:46</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:41:42.701674</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108429.532857</td>
+      <td>108370.953571</td>
+      <td>IN ATTESA (120 min)</td>
+      <td>10:11:42</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:36:38.875099</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108443.042857</td>
+      <td>108384.463571</td>
+      <td>IN ATTESA (115 min)</td>
+      <td>10:06:38</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:31:35.240414</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108367.362857</td>
+      <td>108308.783571</td>
+      <td>IN ATTESA (110 min)</td>
+      <td>10:01:35</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:26:31.362194</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108423.732857</td>
+      <td>108365.153571</td>
+      <td>IN ATTESA (105 min)</td>
+      <td>09:56:31</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2025-07-08 09:21:27.913473</td>
+      <td>BTC-USD</td>
+      <td>BUY</td>
+      <td>108342.082857</td>
+      <td>108283.503571</td>
+      <td>IN ATTESA (100 min)</td>
+      <td>09:51:27</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+</body></html>

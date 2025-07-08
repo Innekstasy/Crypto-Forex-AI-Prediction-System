@@ -1,0 +1,39 @@
+ Segnali totali: 79
+
+🪙 Tipi di segnali (BUY / SELL):
+   BUY: 53 (71.0%)
+   SELL: 22 (29.0%)
+
+ Stato decisionale:
+   ANNULLATO : 45 (57.0%)
+   DA MONITORARE : 34 (43.0%)
+
+ Asset più presenti:
+symbol
+BTC-USD    55
+XRP-USD    11
+ETH-USD     6
+ADA-USD     6
+SOL-USD     1
+
+ Ultimi 5 segnali:
+                 timestamp  symbol azione  decisione
+2025-03-28 18:54:57.250034 BTC-USD    BUY ANNULLATO 
+2025-03-29 16:10:23.254576 BTC-USD    BUY ANNULLATO 
+2025-03-29 16:24:54.657149 BTC-USD    BUY ANNULLATO 
+2025-03-29 16:31:19.870374 BTC-USD    BUY ANNULLATO 
+2025-03-29 16:32:38.320218 BTC-USD    BUY ANNULLATO 
+
+ Esito operazioni:
+ Win rate BUY: 57.7% (TP: 30, SL: 22)
+ Win rate SELL: 59.1% (TP: 13, SL: 9)
+
+   TP: 43 (58.0%)
+   SL: 31 (42.0%)
+
+ RSI medio: 48.82 (min: 15.27, max: 75.84)
+   RSI BUY: media 47.61, min 15.27, max 65.38
+   RSI SELL: media 51.73, min 37.5, max 75.84
+
+ Distanza media TP: 513.2803 | SL: 109.4730
+ Rapporto medio TP/SL: 4.69

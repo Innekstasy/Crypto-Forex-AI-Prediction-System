@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Analisi Segnali</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 20px; }
+        h1, h2 { color: #333; }
+        .grafico { margin-bottom: 40px; }
+        img { max-width: 100%; height: auto; border: 1px solid #ccc; padding: 5px; background: white; }
+        pre { background: #fff; padding: 10px; border: 1px solid #ccc; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>📊 Report Analisi Segnali</h1>
+
+    <h2>📝 Sintesi testo</h2>
+    <pre>
+📊 Segnali totali: 6
+
+🪙 Tipi di segnali (BUY / SELL):
+   SELL: 4 (67.0%)
+   BUY: 2 (33.0%)
+
+🎯 Stato decisionale:
+   DA MONITORARE ⚠️: 6 (100.0%)
+
+📈 Asset più presenti:
+symbol
+BTC-USD    4
+ETH-USD    1
+XRP-USD    1
+
+🕒 Ultimi 5 segnali:
+                 timestamp  symbol azione        decisione
+2025-03-24 12:44:07.442235 BTC-USD   SELL DA MONITORARE ⚠️
+2025-03-24 12:50:28.886778 BTC-USD   SELL DA MONITORARE ⚠️
+2025-03-24 12:51:56.151523 ETH-USD    BUY DA MONITORARE ⚠️
+2025-03-24 12:53:40.110129 XRP-USD    BUY DA MONITORARE ⚠️
+2025-03-24 13:15:16.428137 BTC-USD   SELL DA MONITORARE ⚠️
+
+📊 Esito operazioni:
+🎯 Win rate BUY: 50.0% (TP: 1, SL: 1)
+🎯 Win rate SELL: 50.0% (TP: 2, SL: 2)
+
+   TP: 3 (50.0%)
+   SL: 3 (50.0%)
+
+📉 RSI medio: 50.39 (min: 43.78, max: 57.37)
+   RSI BUY: media 50.0, min 50.0, max 50.0
+   RSI SELL: media 50.58, min 43.78, max 57.37
+
+📏 Distanza media TP: 88.18 | SL: 88.18
+
+    </pre>
+
+    <div class="grafico">
+        <h2>🎯 Decisioni finali</h2>
+        <img src="decisioni_finali.png" alt="Decisioni finali">
+    </div>
+
+    <div class="grafico">
+        <h2>📈 Top 10 Asset per segnali</h2>
+        <img src="top_asset.png" alt="Top asset">
+    </div>
+
+    <div class="grafico">
+        <h2>📉 Distribuzione RSI</h2>
+        <img src="rsi_distribution.png" alt="Distribuzione RSI">
+    </div>
+
+    <div class="grafico">
+        <h2>📏 Distanza TP vs SL</h2>
+        <img src="tp_vs_sl.png" alt="TP vs SL">
+    </div>
+
+</body>
+</html>
+ 
